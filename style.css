@@ -1,0 +1,97 @@
+<html>
+
+<head>
+<title>Jared Calculator 2.0</title>
+<link href="https://fonts.googleapis.com/css?family=Open Sans">
+
+
+<style>
+
+p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans serif;
+}
+
+
+.calc {
+	width: 340px;
+	height: 520px;
+	border-style: 1px solid black;
+	border-radius: 20px;
+	background-color: #36D9B0;
+  	padding: 10px 10px 10px 10px;
+	margin: 50px auto 0 auto;
+}
+
+.key {
+ 	height: 70px;
+ 	width: 70px;
+ 	background-color: #006080;
+	color: white;
+  	margin: 5px 5px 5px 5px;
+  	text-align: center;
+ 	line-height: 70px;
+  	display: inline-block;
+	cursor: pointer;
+
+}
+
+.key:hover {
+  background-color: #666;
+
+}
+
+.answer {
+  width: 60%;
+  height: 70px;
+  background-color: #003040;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  display: inline-block;
+  border-color: #ff0000;
+  margin: 5px 5px 5px 5px;
+}
+
+.wipe {
+  height: 70px;
+  width: 31%;
+  background-color: #A3D9D9;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  cursor: pointer;
+  float: right;
+  margin: 5px 12px 0px 0px;
+
+}
+
+.wipe:hover {
+  background-color: #666;
+
+}
+
+.equals {
+  height: 70px;
+  width: 70px;
+  background-color: #006080;
+  color: white;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+  line-height: 70px;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.equals:hover {
+  background-color: #666;
+
+}
+
+.intro {
+  display: block;
+  color: #666;
+  text-align: center
+}
